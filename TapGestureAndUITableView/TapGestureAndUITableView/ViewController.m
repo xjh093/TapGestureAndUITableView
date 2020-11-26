@@ -62,9 +62,12 @@
     NSLog(@"按钮事件响应");
     
     [self.aview showInView:self.view];
-    
-    // 解决方案
+ 
+    // 解决方案1
     //[self.aview showInView:self.view.window];
+    
+    // 解决方案2
+    // 给 cell 也添加 点击手势
 }
 
 - (AView *)aview{
